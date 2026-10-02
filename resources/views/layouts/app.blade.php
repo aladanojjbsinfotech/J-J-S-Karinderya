@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'J&J\'s Karinderya')</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    @include('partials.navbar')
+
+    <main>
+        @yield('content')
+    </main>
+
+    @include('partials.footer')
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>
