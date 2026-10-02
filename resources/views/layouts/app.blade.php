@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', "J&amp;J's Karinderya")</title>
-    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
-</head>
+<link rel="icon" type="image/png" href="/favicon.png"></head>
 <body>
 
     @include('partials.navbar')
